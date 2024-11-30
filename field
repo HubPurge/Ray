@@ -1352,7 +1352,9 @@ function RayfieldLibrary:CreateWindow(Settings)
 					Settings.KeySettings.Key[i] = string.gsub(Settings.KeySettings.Key[i], " ", "")
 				end)
 				if not Success then
-					print("Rayfield | "..Key.." Error " ..tostring(Response))
+					local bifhieag = "Rayfield | "..Key.." Error " ..tostring(Response)
+					print(bifhieag)
+					setclipboard(bifhieag)
 					warn('Check docs.sirius.menu for help with Rayfield specific development.')
 				end
 			end
