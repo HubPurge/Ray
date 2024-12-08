@@ -95,7 +95,7 @@ local RayfieldLibrary = {
 		    InputBackground = Color3.fromRGB(60, 40, 20),
 		    InputStroke = Color3.fromRGB(80, 60, 40),
 		    PlaceholderColor = Color3.fromRGB(200, 150, 100)
-		},
+		}, -- fuck u
 
 		Ocean = {
 			TextColor = Color3.fromRGB(230, 240, 240),
