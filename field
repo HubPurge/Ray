@@ -10,8 +10,8 @@ iRay  | Programming
 
 
 
-local InterfaceBuild = tostring(math.random(1,5419514095415)
-local Release = tostring(math.random(1,5419514095415)
+local InterfaceBuild = tostring(math.random(1,5419514095415))
+local Release = tostring(math.random(1,5419514095415))
 local RayfieldFolder = "Roifeld"
 local ConfigurationFolder = RayfieldFolder.."/Configurations"
 local ConfigurationExtension = ".txt"
