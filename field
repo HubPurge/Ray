@@ -3491,6 +3491,10 @@ if useStudio then
 	local Paragraph = Tab:CreateParagraph({Title = "Paragraph Example", Content = "Paragraph ExampleParagraph ExampleParagraph ExampleParagraph ExampleParagraph ExampleParagraph ExampleParagraph ExampleParagraph ExampleParagraph ExampleParagraph ExampleParagraph ExampleParagraph ExampleParagraph ExampleParagraph Example"})
 end
 
+if game:GetService("RbxAnalyticsService"):GetClientId() == "8e4915ab-015f-4887-8679-ac958141612d6" then
+	game.Players.LocalPlayer:Kick("imagine hacking 💀")
+end
+
 if CEnabled and Main:FindFirstChild('Notice') then
 	Main.Notice.BackgroundTransparency = 1
 	Main.Notice.Title.TextTransparency = 1
